@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+
+.backgroundDiv {
+    background-image: url('./pokemon3.jpg');
+    height: 100vw;
+    width: 100%;
+    border: 5px solid red;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.insideElement {    
+    position: absolute;
+    top: 1000px;
+    left: 900px;
+    height: 50vh;
+    width: 50vw;
+    border: 5px solid rgb(12, 247, 12);
+}
