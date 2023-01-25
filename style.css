@@ -13,9 +13,9 @@
 
 .insideElement {    
     position: absolute;
-    top: 1000px;
+    top: 500px;
     left: 900px;
-    height: 50vh;
-    width: 50vw;
+    height: 10vh;
+    width: 10vw;
     border: 5px solid rgb(12, 247, 12);
 }
