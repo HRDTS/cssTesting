@@ -2,20 +2,27 @@
     margin: 0;
 }
 
+.outerLayer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;    
+}
+
 .backgroundDiv {
     background-image: url('./pokemon3.jpg');
-    height: 100vw;
-    width: 100%;
+    height: 2000px;
+    width: 1600px;
     border: 5px solid red;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .insideElement {    
-    position: absolute;
-    top: 500px;
-    left: 900px;
-    height: 10vh;
-    width: 10vw;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
     border: 5px solid rgb(12, 247, 12);
 }
